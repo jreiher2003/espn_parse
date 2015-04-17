@@ -1,0 +1,83 @@
+team,date,a/h,opponent,w/l,s,os
+phi,"Wed, Oct 29",@,Indiana,L,91,103
+phi,"Fri, Oct 31",@,Milwaukee,L,81,93
+phi,"Sat, Nov 1",vs,Miami,L,96,114
+phi,"Mon, Nov 3",vs,Houston,L,93,104
+phi,"Wed, Nov 5",vs,Orlando,L,89,91
+phi,"Fri, Nov 7",vs,Chicago,L,115,118
+phi,"Sun, Nov 9",@,Toronto,L,88,120
+phi,"Thu, Nov 13",@,Dallas,L,70,123
+phi,"Fri, Nov 14",@,Houston,L,87,88
+phi,"Mon, Nov 17",@,San Antonio,L,75,100
+phi,"Wed, Nov 19",vs,Boston,L,90,101
+phi,"Fri, Nov 21",vs,Phoenix,L,96,122
+phi,"Sat, Nov 22",@,NY Knicks,L,83,91
+phi,"Mon, Nov 24",vs,Portland,L,104,114
+phi,"Wed, Nov 26",vs,Brooklyn,L,91,99
+phi,"Sat, Nov 29",vs,Dallas,L,103,110
+phi,"Mon, Dec 1",vs,San Antonio,L,103,109
+phi,"Wed, Dec 3",@,Minnesota,W,85,77
+phi,"Fri, Dec 5",vs,Oklahoma City,L,91,103
+phi,"Sat, Dec 6",@,Detroit,W,108,101
+phi,"Wed, Dec 10",@,Atlanta,L,79,95
+phi,"Fri, Dec 12",@,Brooklyn,L,70,88
+phi,"Sat, Dec 13",vs,Memphis,L,115,120
+phi,"Mon, Dec 15",vs,Boston,L,87,105
+phi,"Fri, Dec 19",vs,Charlotte,L,91,109
+phi,"Sun, Dec 21",@,Orlando,W,96,88
+phi,"Tue, Dec 23",@,Miami,W,91,87
+phi,"Fri, Dec 26",@,Portland,L,93,114
+phi,"Sat, Dec 27",@,Utah,L,71,88
+phi,"Tue, Dec 30",@,Golden State,L,86,126
+phi,"Fri, Jan 2",@,Phoenix,L,96,112
+phi,"Sat, Jan 3",@,Los Angeles,L,91,127
+phi,"Mon, Jan 5",vs,Cleveland,W,95,92
+phi,"Wed, Jan 7",vs,Milwaukee,L,77,97
+phi,"Fri, Jan 9",@,Brooklyn,W,90,88
+phi,"Sat, Jan 10",vs,Indiana,W,93,92
+phi,"Tue, Jan 13",vs,Atlanta,L,87,105
+phi,"Wed, Jan 14",@,Toronto,L,84,100
+phi,"Fri, Jan 16",vs,New Orleans,W,96,81
+phi,"Sat, Jan 17",@,Detroit,L,89,107
+phi,"Mon, Jan 19",@,Washington,L,76,111
+phi,"Wed, Jan 21",vs,NY Knicks,L,91,98
+phi,"Fri, Jan 23",vs,Toronto,L,86,91
+phi,"Sat, Jan 24",@,Memphis,L,83,101
+phi,"Mon, Jan 26",@,New Orleans,L,74,99
+phi,"Wed, Jan 28",vs,Detroit,W,89,69
+phi,"Fri, Jan 30",vs,Minnesota,W,103,94
+phi,"Sat, Jan 31",@,Atlanta,L,85,91
+phi,"Mon, Feb 2",@,Cleveland,L,84,97
+phi,"Tue, Feb 3",vs,Denver,W,105,98
+phi,"Fri, Feb 6",@,Boston,L,96,107
+phi,"Sat, Feb 7",vs,Charlotte,W,89,81
+phi,"Mon, Feb 9",vs,Golden State,L,84,89
+phi,"Fri, Feb 20",vs,Indiana,L,95,106
+phi,"Sun, Feb 22",@,Orlando,L,98,103
+phi,"Mon, Feb 23",@,Miami,L,108,119
+phi,"Wed, Feb 25",@,Milwaukee,L,88,104
+phi,"Fri, Feb 27",vs,Washington,W,89,81
+phi,"Sun, Mar 1",@,Indiana,L,74,94
+phi,"Mon, Mar 2",vs,Toronto,L,103,114
+phi,"Wed, Mar 4",@,Oklahoma City,L,118,123
+phi,"Fri, Mar 6",vs,Utah,L,83,89
+phi,"Sat, Mar 7",vs,Atlanta,W,92,84
+phi,"Wed, Mar 11",vs,Chicago,L,95,104
+phi,"Fri, Mar 13",vs,Sacramento,W,114,107
+phi,"Sat, Mar 14",vs,Brooklyn,L,87,94
+phi,"Mon, Mar 16",@,Boston,L,89,108
+phi,"Wed, Mar 18",vs,Detroit,W,94,83
+phi,"Fri, Mar 20",vs,NY Knicks,W,97,81
+phi,"Sun, Mar 22",@,Los Angeles,L,87,101
+phi,"Tue, Mar 24",@,Sacramento,L,106,107
+phi,"Wed, Mar 25",@,Denver,W,99,85
+phi,"Fri, Mar 27",vs,Los Angeles,L,98,119
+phi,"Sun, Mar 29",@,Cleveland,L,86,87
+phi,"Mon, Mar 30",vs,Los Angeles,L,111,113
+phi,"Wed, Apr 1",@,Washington,L,93,106
+phi,"Sat, Apr 4",@,Charlotte,L,91,92
+phi,"Sun, Apr 5",@,NY Knicks,L,91,101
+phi,"Wed, Apr 8",vs,Washington,L,90,119
+phi,"Sat, Apr 11",@,Chicago,L,107,114
+phi,"Mon, Apr 13",vs,Milwaukee,L,97,107
+phi,"Wed, Apr 15",vs,Miami,L,101,105
