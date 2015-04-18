@@ -6,3 +6,12 @@ happens to be the total your bookie gives you then you should know
 which way to play.  This works for team totals as well as game totals.
 
 Technology stack is python, BS, MongoDB, scipy, and numpy.  
+
+NOTE: you need to clear out the db.nba database every time you 
+run nba_parse_espn.py
+
+before your run nba_parse_espn.py
+go to mongo shell - db.nba.drop()
+then you can run nba_parse_espn.py
+make the daily matchups in nba_analysis.py 
+and run it
