@@ -9,24 +9,43 @@ import math
 def mongo_con_nba():
 	# establish a connection to the database
 	connection = pymongo.MongoClient("mongodb://localhost")
-	# get a handle to the school database
+	# get a handle to the sports database
 	db=connection.sports
 	nba = db.nba
 	return nba
 nba = mongo_con_nba()
 
 def h_scores(team):
-	cur = nba.aggregate([{"$match": {"team": team}}, {"$match": {"h_a": "vs"}},{"$group": {"_id": {"scores": "$h_a"}, team: {"$push": "$s"} }}])
+	"""Finds all scores by game from each home team 
+	and puts it into a list for analysis
+	"""
+	cur = nba.aggregate([{"$match": {"team": team}}, 
+						 {"$match": {"h_a": "vs"}},
+						 {"$group": {"_id": {"scores": "$h_a"}, 
+						 team: {"$push": "$s"} }}
+						 ])
+
 	new_cur = cur['result'][0][team]
 	new_cur = filter(None, new_cur)
 	return new_cur
 
 def a_scores(team):
-	cur = nba.aggregate([{"$match": {"team": team}}, {"$match": {"h_a": "@"}},{"$group": {"_id": {"scores": "$h_a"}, team: {"$push": "$s"} }}])
+	"""Finds all aways scores by team and by games, 
+	puts each game score into a list for analysis
+	"""
+
+	cur = nba.aggregate([{"$match": {"team": team}}, 
+					     {"$match": {"h_a": "@"}},
+					     {"$group": {"_id": {"scores": "$h_a"}, 
+					     team: {"$push": "$s"} }}
+					     ])
+
 	new_cur = cur['result'][0][team]
 	new_cur = filter(None, new_cur)
 	return new_cur
 
+# list of each teams score by game 
+# split up by home and away
 
 atl_away = a_scores('atl')
 atl_home = h_scores('atl')
@@ -135,10 +154,15 @@ def calculate_score(data, z):
     return x,y,mu,sigma,newdata
 
 def ss(data):
+	"""sum of squares"""
 	mu=numpy.mean(data)
 	return sum([(x-mu)**2 for x in data])
 
 def combine_score(away, home):
+	"""if one team played more games on the home or road and it was different
+	then the other team then this function will add the rolling mean to the team
+	that needed it to make the amount of games played the same
+	"""
 	if len(home) > len(away):
 		return map(sum, itertools.izip_longest(away, home, fillvalue=int(round(numpy.mean(away)))))
 	elif len(home) < len(away):
@@ -147,6 +171,9 @@ def combine_score(away, home):
 		return map(sum, itertools.izip_longest(away, home))
 
 def total_combinations(away, home):	
+	"""This will add all combinations of home + away scores
+	makes for a solid mean but lowers the std
+	"""
 	total = []
 	for com in itertools.product(away, home):
 		x = sum(com)
@@ -190,7 +217,7 @@ def matchup(n1, away, n2,home):
 	
 
 
-
+# make the daily matchups and run
 print matchup('okc', okc_away, 'chi', chi_home)
 print matchup('dal', dal_away, 'por', por_home)
 
