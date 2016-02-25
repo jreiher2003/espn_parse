@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup as bsoup
 import requests as rq
-import csv, simplejson, decimal, codecs
+import csv
 import pymongo 
 import time
 import pprint
@@ -21,9 +21,12 @@ def parse_espn(name):
     url = "http://espn.go.com/nba/team/schedule/_/name/" + name
     r = rq.get(url)
     soup = bsoup(r.content, 'lxml')
+
+
     ## Find all the rows that have classes. Remove the first one -- it's irrelevant.
     trs = soup.find_all("tr", class_=True)[1:]
     ## Main procedure.
+
     with open("nba_2016_csv/" + name + "_2016_schedule.csv", "wb") as ofile:
         f = csv.writer(ofile)
         ## Write the headers. 
@@ -35,6 +38,7 @@ def parse_espn(name):
             opp = tds[1].find_all( "li", {"class": "team-name"} )
             for teams in opp:
                 other_team = teams.get_text()
+
             opponent = tds[1].find_all( 'li',{'class':'game-status'} )
             for o in opponent:
                 h_a = o.get_text()
@@ -42,7 +46,6 @@ def parse_espn(name):
                     win_loss = tds[2].find_all( 'li',{'class':'game-status win'} ) or tds[2].find_all( 'li',{'class':'game-status loss'} )
                     for a in win_loss:
                         w_l = a.get_text()
-
                     score = tds[2].find_all('a')
                     for s in score:
                         if w_l == 'W':
@@ -111,13 +114,13 @@ nba_teams(nba_lst)
 # parse_espn('min')
 
 
+
 def make_json(name):
     data = open(name+"_2016_schedule.csv")
     reader = csv.DictReader(data, delimiter=",", quotechar='"')
     print reader
     with codecs.open(name+"_out.json", "w", encoding="utf-8") as out:
        for r in reader:
-          
           for k, v in r.items(): 
              # make sure nulls are generated
              if not v:

@@ -1,5 +1,4 @@
 import scipy.stats
-import statstools
 import pymongo
 import pprint
 import numpy
@@ -39,8 +38,11 @@ def a_scores(team):
 					     {"$group": {"_id": {"scores": "$h_a"}, 
 					     team: {"$push": "$s"} }}
 					     ])
+	print cur[team]
 
 	new_cur = cur['result'][0][team]
+	print dir(new_cur)
+	print new_cur
 	new_cur = filter(None, new_cur)
 	return new_cur
 
@@ -218,8 +220,9 @@ def matchup(n1, away, n2,home):
 
 
 # make the daily matchups and run
-print matchup('okc', okc_away, 'chi', chi_home)
-print matchup('dal', dal_away, 'por', por_home)
+# print matchup('okc', okc_away, 'chi', chi_home)
+
+print matchup('orl', orl_away, 'phi', phi_home)
 
 
 
