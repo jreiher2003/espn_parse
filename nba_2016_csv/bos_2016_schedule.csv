@@ -1,0 +1,84 @@
+team,date,a/h,opponent,w/l,s,os
+bos,"Wed, Oct 28",vs,Philadelphia,W,112,95
+bos,"Fri, Oct 30",vs,Toronto,L,103,113
+bos,"Sun, Nov 1",vs,San Antonio,L,87,95
+bos,"Wed, Nov 4",@,Indiana,L,98,100
+bos,"Fri, Nov 6",vs,Washington,W,118,98
+bos,"Tue, Nov 10",@,Milwaukee,W,99,83
+bos,"Wed, Nov 11",vs,Indiana,L,91,102
+bos,"Fri, Nov 13",vs,Atlanta,W,106,93
+bos,"Sun, Nov 15",@,Oklahoma City,W,100,85
+bos,"Mon, Nov 16",@,Houston,W,111,95
+bos,"Wed, Nov 18",vs,Dallas,L,102,106
+bos,"Fri, Nov 20",vs,Brooklyn,W,120,95
+bos,"Sun, Nov 22",@,Brooklyn,L,101,111
+bos,"Tue, Nov 24",@,Atlanta,L,97,121
+bos,"Wed, Nov 25",vs,Philadelphia,W,84,80
+bos,"Fri, Nov 27",vs,Washington,W,111,78
+bos,"Sun, Nov 29",@,Orlando,L,91,110
+bos,"Mon, Nov 30",@,Miami,W,105,95
+bos,"Thu, Dec 3",@,Sacramento,W,114,97
+bos,"Sat, Dec 5",@,San Antonio,L,105,108
+bos,"Mon, Dec 7",@,New Orleans,W,111,93
+bos,"Wed, Dec 9",vs,Chicago,W,105,100
+bos,"Fri, Dec 11",vs,Golden State,L,119,124
+bos,"Sat, Dec 12",@,Charlotte,W,98,93
+bos,"Tue, Dec 15",vs,Cleveland,L,77,89
+bos,"Wed, Dec 16",@,Detroit,L,116,119
+bos,"Fri, Dec 18",vs,Atlanta,L,101,109
+bos,"Mon, Dec 21",vs,Minnesota,W,113,99
+bos,"Wed, Dec 23",@,Charlotte,W,102,89
+bos,"Sat, Dec 26",@,Detroit,W,99,93
+bos,"Sun, Dec 27",vs,NY Knicks,W,100,91
+bos,"Wed, Dec 30",vs,Los Angeles,L,104,112
+bos,"Sat, Jan 2",vs,Brooklyn,L,97,100
+bos,"Mon, Jan 4",@,Brooklyn,W,103,94
+bos,"Wed, Jan 6",vs,Detroit,L,94,99
+bos,"Thu, Jan 7",@,Chicago,L,92,101
+bos,"Sun, Jan 10",@,Memphis,L,98,101
+bos,"Tue, Jan 12",@,NY Knicks,L,114,120
+bos,"Wed, Jan 13",vs,Indiana,W,103,94
+bos,"Fri, Jan 15",vs,Phoenix,W,117,103
+bos,"Sat, Jan 16",@,Washington,W,119,117
+bos,"Mon, Jan 18",@,Dallas,L,113,118
+bos,"Wed, Jan 20",@,Toronto,L,109,115
+bos,"Fri, Jan 22",vs,Chicago,W,110,101
+bos,"Sat, Jan 23",@,Philadelphia,W,110,101
+bos,"Sun, Jan 24",@,Philadelphia,W,112,92
+bos,"Mon, Jan 25",@,Washington,W,116,91
+bos,"Wed, Jan 27",vs,Denver,W,111,103
+bos,"Fri, Jan 29",vs,Orlando,W,113,94
+bos,"Sun, Jan 31",@,Orlando,L,114,119
+bos,"Tue, Feb 2",@,NY Knicks,W,97,89
+bos,"Wed, Feb 3",vs,Detroit,W,102,95
+bos,"Fri, Feb 5",@,Cleveland,W,104,103
+bos,"Sun, Feb 7",vs,Sacramento,W,128,119
+bos,"Tue, Feb 9",@,Milwaukee,L,111,112
+bos,"Wed, Feb 10",vs,Los Angeles,W,139,134
+bos,"Fri, Feb 19",@,Utah,L,93,111
+bos,"Sun, Feb 21",@,Denver,W,121,101
+bos,"Mon, Feb 22",@,Minnesota,L,122,124
+bos,"Thu, Feb 25",,,,,
+bos,"Sat, Feb 27",vs,Miami,,,
+bos,"Mon, Feb 29",vs,Utah,,,
+bos,"Wed, Mar 2",vs,Portland,,,
+bos,"Fri, Mar 4",vs,NY Knicks,,,
+bos,"Sat, Mar 5",@,Cleveland,,,
+bos,"Wed, Mar 9",vs,Memphis,,,
+bos,"Fri, Mar 11",vs,Houston,,,
+bos,"Tue, Mar 15",@,Indiana,,,
+bos,"Wed, Mar 16",vs,Oklahoma City,,,
+bos,"Fri, Mar 18",@,Toronto,,,
+bos,"Sun, Mar 20",@,Philadelphia,,,
+bos,"Mon, Mar 21",vs,Orlando,,,
+bos,"Wed, Mar 23",vs,Toronto,,,
+bos,"Sat, Mar 26",@,Phoenix,,,
+bos,"Mon, Mar 28",@,Los Angeles,,,
+bos,"Thu, Mar 31",@,Portland,,,
+bos,"Fri, Apr 1",@,Golden State,,,
+bos,"Sun, Apr 3",@,Los Angeles,,,
+bos,"Wed, Apr 6",vs,New Orleans,,,
+bos,"Fri, Apr 8",vs,Milwaukee,,,
+bos,"Sat, Apr 9",@,Atlanta,,,
+bos,"Mon, Apr 11",vs,Charlotte,,,
+bos,"Wed, Apr 13",vs,Miami,,,

@@ -11,7 +11,7 @@ def mongo_con_nba():
 	connection = pymongo.MongoClient("mongodb://localhost")
 	# get a handle to the sports database
 	db=connection.sports
-	nba = db.nba
+	nba = db.nba15_16
 	return nba
 nba = mongo_con_nba()
 
