@@ -56,10 +56,10 @@ phi,"Wed, Feb 10",vs,Sacramento,L,110,114
 phi,"Fri, Feb 19",@,New Orleans,L,114,121
 phi,"Sun, Feb 21",@,Dallas,L,103,129
 phi,"Tue, Feb 23",vs,Orlando,L,115,124
-phi,"Wed, Feb 24",,,,,
-phi,"Fri, Feb 26",vs,Washington,,,
-phi,"Sun, Feb 28",@,Orlando,,,
-phi,"Mon, Feb 29",@,Washington,,,
+phi,"Wed, Feb 24",@,Detroit,L,91,111
+phi,"Fri, Feb 26",vs,Washington,L,94,103
+phi,"Sun, Feb 28",@,Orlando,L,116,130
+phi,"Mon, Feb 29",,,,,
 phi,"Wed, Mar 2",vs,Charlotte,,,
 phi,"Fri, Mar 4",vs,Miami,,,
 phi,"Sun, Mar 6",@,Miami,,,

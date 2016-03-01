@@ -57,27 +57,27 @@ lal,"Wed, Feb 10",@,Cleveland,L,111,120
 lal,"Fri, Feb 19",vs,San Antonio,L,113,119
 lal,"Sun, Feb 21",@,Chicago,L,115,126
 lal,"Mon, Feb 22",@,Milwaukee,L,101,108
-lal,"Wed, Feb 24",,,,,
-lal,"Fri, Feb 26",vs,Memphis,,,
-lal,"Tue, Mar 1",vs,Brooklyn,,,
-lal,"Wed, Mar 2",@,Denver,,,
-lal,"Fri, Mar 4",vs,Atlanta,,,
-lal,"Sun, Mar 6",vs,Golden State,,,
-lal,"Tue, Mar 8",vs,Orlando,,,
-lal,"Thu, Mar 10",vs,Cleveland,,,
-lal,"Sun, Mar 13",vs,NY Knicks,,,
-lal,"Tue, Mar 15",vs,Sacramento,,,
-lal,"Fri, Mar 18",vs,Phoenix,,,
-lal,"Tue, Mar 22",vs,Memphis,,,
-lal,"Wed, Mar 23",@,Phoenix,,,
-lal,"Fri, Mar 25",vs,Denver,,,
-lal,"Sun, Mar 27",vs,Washington,,,
-lal,"Mon, Mar 28",@,Utah,,,
-lal,"Wed, Mar 30",vs,Miami,,,
-lal,"Sun, Apr 3",vs,Boston,,,
-lal,"Tue, Apr 5",@,Los Angeles,,,
-lal,"Wed, Apr 6",vs,Los Angeles,,,
-lal,"Fri, Apr 8",@,New Orleans,,,
-lal,"Sun, Apr 10",@,Houston,,,
-lal,"Mon, Apr 11",@,Oklahoma City,,,
-lal,"Wed, Apr 13",vs,Utah,,,
+lal,"Wed, Feb 24",@,Memphis,L,119,128
+lal,"Fri, Feb 26",vs,Memphis,L,95,112
+lal,"Tue, Mar 1",vs,Brooklyn,L,95,112
+lal,"Wed, Mar 2",@,Denver,L,95,112
+lal,"Fri, Mar 4",vs,Atlanta,L,95,112
+lal,"Sun, Mar 6",vs,Golden State,L,95,112
+lal,"Tue, Mar 8",vs,Orlando,L,95,112
+lal,"Thu, Mar 10",vs,Cleveland,L,95,112
+lal,"Sun, Mar 13",vs,NY Knicks,L,95,112
+lal,"Tue, Mar 15",vs,Sacramento,L,95,112
+lal,"Fri, Mar 18",vs,Phoenix,L,95,112
+lal,"Tue, Mar 22",vs,Memphis,L,95,112
+lal,"Wed, Mar 23",@,Phoenix,L,95,112
+lal,"Fri, Mar 25",vs,Denver,L,95,112
+lal,"Sun, Mar 27",vs,Washington,L,95,112
+lal,"Mon, Mar 28",@,Utah,L,95,112
+lal,"Wed, Mar 30",vs,Miami,L,95,112
+lal,"Sun, Apr 3",vs,Boston,L,95,112
+lal,"Tue, Apr 5",@,Los Angeles,L,95,112
+lal,"Wed, Apr 6",vs,Los Angeles,L,95,112
+lal,"Fri, Apr 8",@,New Orleans,L,95,112
+lal,"Sun, Apr 10",@,Houston,L,95,112
+lal,"Mon, Apr 11",@,Oklahoma City,L,95,112
+lal,"Wed, Apr 13",vs,Utah,L,95,112

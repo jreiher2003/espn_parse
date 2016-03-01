@@ -10,7 +10,7 @@ def mongo_con_nba():
 	connection = pymongo.MongoClient("mongodb://localhost")
 	# get a handle to the sports database
 	db=connection.sports
-	nba = db.nba15_16
+	nba = db.nba16
 	return nba
 nba = mongo_con_nba()
 
@@ -38,10 +38,10 @@ def a_scores(team):
 					     {"$group": {"_id": {"scores": "$h_a"}, 
 					     team: {"$push": "$s"} }}
 					     ])
-	print cur[team]
-
-	new_cur = cur['result'][0][team]
-	print dir(new_cur)
+	# cur = list(cur)
+	print cur
+	# print dir(cur)
+	new_cur = list(cur['results'])
 	print new_cur
 	new_cur = filter(None, new_cur)
 	return new_cur
@@ -222,7 +222,7 @@ def matchup(n1, away, n2,home):
 # make the daily matchups and run
 # print matchup('okc', okc_away, 'chi', chi_home)
 
-print matchup('orl', orl_away, 'phi', phi_home)
+print matchup('was', was_away, 'chi', chi_home)
 
 
 

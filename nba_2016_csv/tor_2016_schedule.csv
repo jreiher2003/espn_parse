@@ -54,30 +54,30 @@ tor,"Wed, Feb 10",@,Minnesota,L,112,117
 tor,"Fri, Feb 19",@,Chicago,L,106,116
 tor,"Sun, Feb 21",vs,Memphis,W,98,85
 tor,"Mon, Feb 22",@,NY Knicks,W,122,95
-tor,"Wed, Feb 24",,,,,
-tor,"Fri, Feb 26",vs,Cleveland,,,
-tor,"Sun, Feb 28",@,Detroit,,,
-tor,"Wed, Mar 2",vs,Utah,,,
-tor,"Fri, Mar 4",vs,Portland,,,
-tor,"Sun, Mar 6",vs,Houston,,,
-tor,"Tue, Mar 8",vs,Brooklyn,,,
-tor,"Thu, Mar 10",vs,Atlanta,,,
-tor,"Sat, Mar 12",vs,Miami,,,
-tor,"Mon, Mar 14",vs,Chicago,,,
-tor,"Tue, Mar 15",@,Milwaukee,,,
-tor,"Thu, Mar 17",@,Indiana,,,
-tor,"Fri, Mar 18",vs,Boston,,,
-tor,"Sun, Mar 20",vs,Orlando,,,
-tor,"Wed, Mar 23",@,Boston,,,
-tor,"Fri, Mar 25",@,Houston,,,
-tor,"Sat, Mar 26",@,New Orleans,,,
-tor,"Mon, Mar 28",vs,Oklahoma City,,,
-tor,"Wed, Mar 30",vs,Atlanta,,,
-tor,"Fri, Apr 1",@,Memphis,,,
-tor,"Sat, Apr 2",@,San Antonio,,,
-tor,"Tue, Apr 5",vs,Charlotte,,,
-tor,"Thu, Apr 7",@,Atlanta,,,
-tor,"Fri, Apr 8",vs,Indiana,,,
-tor,"Sun, Apr 10",@,NY Knicks,,,
-tor,"Tue, Apr 12",vs,Philadelphia,,,
-tor,"Wed, Apr 13",@,Brooklyn,,,
+tor,"Wed, Feb 24",vs,Minnesota,W,114,105
+tor,"Fri, Feb 26",vs,Cleveland,W,99,97
+tor,"Sun, Feb 28",@,Detroit,L,101,114
+tor,"Wed, Mar 2",vs,Utah,L,101,114
+tor,"Fri, Mar 4",vs,Portland,L,101,114
+tor,"Sun, Mar 6",vs,Houston,L,101,114
+tor,"Tue, Mar 8",vs,Brooklyn,L,101,114
+tor,"Thu, Mar 10",vs,Atlanta,L,101,114
+tor,"Sat, Mar 12",vs,Miami,L,101,114
+tor,"Mon, Mar 14",vs,Chicago,L,101,114
+tor,"Tue, Mar 15",@,Milwaukee,L,101,114
+tor,"Thu, Mar 17",@,Indiana,L,101,114
+tor,"Fri, Mar 18",vs,Boston,L,101,114
+tor,"Sun, Mar 20",vs,Orlando,L,101,114
+tor,"Wed, Mar 23",@,Boston,L,101,114
+tor,"Fri, Mar 25",@,Houston,L,101,114
+tor,"Sat, Mar 26",@,New Orleans,L,101,114
+tor,"Mon, Mar 28",vs,Oklahoma City,L,101,114
+tor,"Wed, Mar 30",vs,Atlanta,L,101,114
+tor,"Fri, Apr 1",@,Memphis,L,101,114
+tor,"Sat, Apr 2",@,San Antonio,L,101,114
+tor,"Tue, Apr 5",vs,Charlotte,L,101,114
+tor,"Thu, Apr 7",@,Atlanta,L,101,114
+tor,"Fri, Apr 8",vs,Indiana,L,101,114
+tor,"Sun, Apr 10",@,NY Knicks,L,101,114
+tor,"Tue, Apr 12",vs,Philadelphia,L,101,114
+tor,"Wed, Apr 13",@,Brooklyn,L,101,114
